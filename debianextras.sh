@@ -1,6 +1,6 @@
 #!/bin/sh
 apt-get install handbrake -y
-apt-get install ardour -y
+apt-get install mixxx -y
 apt-get install audacity -y
 apt-get install gdebi -y
 apt-get install putty -y
