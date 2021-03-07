@@ -35,7 +35,13 @@ debianextras.sh
 * isntalls extra applications like audio editors among others
 
 debianheaders.sh
-* installs linux headers for linux kernel
+* installs linux headers for linux kernel (intel and amd only aka x86)
+
+debianmicrocode.sh
+* installs microcode for x86 cpus (make sure to uncomment the one you need)
+
+debianoffice.sh
+* installs libreoffice with microsoft fonts
 
 ### NOTE: if you want the older scripts make sure to he to the link below!
 
