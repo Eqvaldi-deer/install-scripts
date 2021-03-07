@@ -6,6 +6,7 @@ apt install audacity -y
 apt install gdebi -y
 apt install putty -y
 apt install gimp -y
+apt install vlc-plugin-fluidsynth -y
 #apt install ardour -y
 apt-get update -y
 apt clean
