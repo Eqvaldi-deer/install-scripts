@@ -34,6 +34,9 @@ debiannonfreefirmware.sh
 debianextras.sh    
 * isntalls extra applications like audio editors among others
 
+debianheaders.sh
+* installs linux headers for linux kernel
+
 ### NOTE: if you want the older scripts make sure to he to the link below!
 
 [OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
