@@ -13,7 +13,6 @@ apt install lightdm-gtk-greeter-settings -y
 apt install eog -y
 apt install xorg -y
 apt install chromium -y
-apt install dosbox -y
 apt install lightdm -y
 apt install synaptic -y
 apt install htop -y
@@ -44,8 +43,6 @@ apt install mesa-utils-extra -y
 apt install gvfs-backends -y
 apt install gvfs-common -y
 apt install soundconverter -y
-apt install prboom-plus -y
-apt install freedoom -y
 apt install ffmpeg -y
 apt install audacious -y
 apt install build-essential -y
