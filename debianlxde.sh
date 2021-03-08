@@ -36,7 +36,6 @@ apt install neofetch -y
 apt install lightdm-gtk-greeter-settings -y
 apt install xorg -y
 apt install chromium -y
-apt install dosbox -y
 apt install lightdm -y
 apt install synaptic -y
 apt install htop -y
@@ -45,8 +44,6 @@ apt install gnome-disk-utility -y
 apt install gnome-icon-theme -y
 apt install soundconverter -y
 apt install network-manager-gnome -y
-apt install prboom-plus -y
-apt install freedoom -y
 apt install ffmpeg -y
 apt install audacious -y
 apt install build-essential -y
