@@ -15,6 +15,7 @@ apt install xorg -y
 apt install chromium -y
 apt install lightdm -y
 apt install synaptic -y
+apt install gdebi -y
 apt install htop -y
 apt install gnome-icon-theme -y
 apt install nemo -y
