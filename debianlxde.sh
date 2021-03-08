@@ -52,6 +52,7 @@ apt install libcurl4-openssl-dev -y
 apt install libalut-dev -y
 apt install libsdl2-dev -y
 apt install libsdl2-mixer-dev -y
+apt install libgtk-3-dev -y
 apt update -y
 apt upgrade -y
 rm /etc/apt/sources.list.d/vscode.list
