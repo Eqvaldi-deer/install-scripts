@@ -25,7 +25,7 @@ apt install system-config-printer -y
 apt install transmission-gtk -y
 apt install pcmanfm -y
 apt install lxterminal -y
-apt install leafpad -y
+apt install mousepad -y
 apt install file-roller -y
 apt install galculator -y
 apt install ghostscript-x -y
