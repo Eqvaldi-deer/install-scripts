@@ -26,6 +26,9 @@ debiantononfree.sh
 * edits your sources.list file by adding contrib and non-free (nonfree)
 
 debianunstable.sh 
+* moves you to debian unstable
+
+debiantesting.sh 
 * moves you to debian testing
 
 debiannonfreefirmware.sh
@@ -42,6 +45,9 @@ debianmicrocode.sh
 
 debianoffice.sh
 * installs libreoffice with microsoft fonts
+
+debiangames.sh
+* adds games, some are commennted out, to install them make sure to edit the script by commenting them out
 
 ### NOTE: if you want the older scripts make sure to he to the link below!
 
