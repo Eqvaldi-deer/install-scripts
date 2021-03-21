@@ -1,3 +1,4 @@
+#!/bin/sh
 apt update
 apt install debian-goodies -y
 apt purge popularity-contest -y
