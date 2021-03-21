@@ -10,7 +10,7 @@ git clone https://github.com/DavidHusicka/daaart.git
 cd daaart/
 cargo build --release
 cd target/release/
-cp daaart daaart.d ~/Binary/daaart
+cp daaart ~/Binary/daaart
 cd ~/
 rm -rf daaart/
 apt clean
