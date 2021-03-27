@@ -19,7 +19,6 @@ apt install language-selector-gnome -y
 apt install xserver-xorg-input-all -y
 apt install xserver-xorg-video-all -y
 apt install xserver-xorg-video-qxl -y
-apt install policykit-desktop-privileges -y
 apt install software-properties-gtk -y
 apt install system-config-printer -y
 apt install transmission-gtk -y
