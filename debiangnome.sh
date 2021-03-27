@@ -4,6 +4,9 @@ apt install gnome-shell -y
 apt install gnome-session -y
 apt install gnome-terminal -y
 apt install nautilus -y
+apt install light-locker -y
+apt install lightdm-gtk-greeter-settings -y
+apt install lightdm -y
 apt purge firefox-esr -y
 apt install chromium -y
 apt install file-roller -y
@@ -59,5 +62,6 @@ echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref
 echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
 echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
 cat /etc/apt/preferences.d/nosnap.pref
+apt purge gdm3 -y
 apt update -y
 apt clean
