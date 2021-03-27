@@ -20,7 +20,6 @@ apt install htop -y
 apt install gnome-icon-theme -y
 apt install nemo -y
 apt install usb-modeswitch -y
-apt install cups-filters -y
 apt install blueman -y
 apt install genisoimage -y
 apt install gnome-disk-utility -y
