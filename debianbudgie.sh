@@ -1,6 +1,11 @@
 #!/bin/sh
 apt update
 apt install budgie-core -y
+apt install gnome-session-bin -y
+apt install gnome-menus -y
+apt install gnome-session-common -y
+apt install gir1.2-budgie-1.0 -y
+apt install gnome-terminal -y
 apt install nautilus -y
 apt install light-locker -y
 apt install lightdm-gtk-greeter-settings -y
@@ -58,6 +63,5 @@ echo 'Package: snapd' > /etc/apt/preferences.d/nosnap.pref
 echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
 echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
 cat /etc/apt/preferences.d/nosnap.pref
-apt purge gdm3 -y
 apt update -y
 apt clean
