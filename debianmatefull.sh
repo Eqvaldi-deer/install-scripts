@@ -48,7 +48,6 @@ apt install gvfs-backends -y
 apt install gvfs-common -y
 apt install soundconverter -y
 apt install ffmpeg -y
-apt install audacious -y
 apt install build-essential -y
 apt install libcurl4-openssl-dev -y
 apt install libalut-dev -y
