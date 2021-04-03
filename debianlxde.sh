@@ -45,7 +45,6 @@ apt install gnome-icon-theme -y
 apt install soundconverter -y
 apt install network-manager-gnome -y
 apt install ffmpeg -y
-apt install audacious -y
 apt install build-essential -y
 apt install libcurl4-openssl-dev -y
 apt install libalut-dev -y
