@@ -3,6 +3,9 @@ apt update -y
 apt install firmware-misc-nonfree -y
 apt install firmware-realtek -y
 #apt install firmware-amd-graphics -y
+#apt install intel-microcode -y
+#apt install amd64-microcode -y
+#apt install ixp4xx-microcode -y
 #apt install raspi-firmware -y
 #Raspberry Pi family GPU firmware and bootloaders
 #apt install firmware-brcm80211 -y
