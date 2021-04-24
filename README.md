@@ -40,8 +40,6 @@ debianextras.sh
 debianheaders.sh
 * installs linux headers for linux kernel (intel and amd only aka x86)
 
-debianmicrocode.sh
-* installs microcode for x86 cpus (make sure to uncomment the one you need)
 
 debianoffice.sh
 * installs libreoffice with microsoft fonts
