@@ -3,7 +3,6 @@ apt update
 apt install budgie-core -y
 apt install gnome-session-bin -y
 apt install gnome-menus -y
-apt install gnome-session-common -y
 apt install gir1.2-budgie-1.0 -y
 apt install gnome-terminal -y
 apt install nautilus -y
