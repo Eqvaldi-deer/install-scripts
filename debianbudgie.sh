@@ -10,6 +10,7 @@ apt install nautilus -y
 apt install light-locker -y
 apt install lightdm-gtk-greeter-settings -y
 apt install lightdm -y
+apt install gnome-shell -y
 apt install chromium -y
 apt install file-roller -y
 apt install network-manager-gnome -y
