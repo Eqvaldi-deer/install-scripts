@@ -8,6 +8,6 @@ apt install putty -y
 apt install gimp -y
 apt install vlc-plugin-fluidsynth -y
 apt install fluidsynth -y
-#apt install ardour -y
+#apt install muse -y
 apt-get update -y
 apt clean
