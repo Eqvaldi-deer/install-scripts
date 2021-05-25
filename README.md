@@ -51,6 +51,10 @@ debiangames.sh
 
 [OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
 
+### NOTE: arch linux scripts are for bash and you have to have git installed
+
+archlinuxgnome.sh
+
 ---
 Editor of this readme
 > [BeanGreen247](https://github.com/BeanGreen247)
