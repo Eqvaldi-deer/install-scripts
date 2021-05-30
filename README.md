@@ -5,7 +5,7 @@
 
 # Info
 
-* archlinuxgnome.sh (unstable) ver.0.6
+* archlinuxgnome.sh (semi-stable) ver.0.9
 * debianlxqt.sh (semi-stable) ver.0.9
 * debianbudgie.sh (stable) ver.1.0
 * debiancinnamon.sh (very stable) ver.2.0
