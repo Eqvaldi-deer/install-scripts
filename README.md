@@ -15,9 +15,19 @@
 * debianmate.sh (stable) ver.1.0
 * debianxfce4.sh (very stable) ver.2.0
 
+very stable - tested on both VMs and real hardware, no issues
+
+stable - tested in VMs and real hardware, but some issues may pop up
+
+semi-stable - same as stable, but has more issues
+
+unstable - tested in VMs and real hardware, but not recommended for daily use
+
+experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
+
 ### known bugs
 
-* Mate desktop (nvidia-driver couses everything to be oversized)
+* Mate desktop (nvidia-driver causes everything to be oversized)
 * LXQT mas issues with some usb audio devices.
 * Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
@@ -26,33 +36,16 @@
 
 * Q: Why?
 * A: Why Not.
-
-
-
 * Q: What is the point?
 * A: To make DEs run on low end hardware. (example:embedded devices and thin clients etc.)
-
-
-
 * Q: Do you support devices with 1 cpu core and 512mb of ram?
 * A: yes but you need to install lxde lxqt or FVWM.
-
-
-
 * Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
 * A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM,budgie.
-
-
-
 * Q: why are you not using Firefox,Brave,etc?
 * A: we use what works on as many hardware platforms as posible. (example:chromium is used on RaspberryPi OS,Armbian)
-
-
-
 * Q: What about Brave,etc?
 * A: we use what is located in the debian repos.
-
-
 
 ### Install
 
@@ -91,7 +84,6 @@ debianextras.sh
 
 debianheaders.sh
 * installs linux headers for linux kernel (intel and amd only aka x86)
-
 
 debianoffice.sh
 * installs libreoffice with microsoft fonts
