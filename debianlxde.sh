@@ -9,6 +9,7 @@ apt install tumbler -y
 apt install mesa-utils -y
 apt install gparted -y
 apt install xarchiver -y
+apt install usb-modeswitch -y
 apt install p7zip -y
 apt install zip unzip -y
 apt install mesa-utils-extra -y
