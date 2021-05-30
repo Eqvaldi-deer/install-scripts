@@ -8,12 +8,12 @@
 * archlinuxgnome.sh (unstable) ver.0.6
 * debianlxqt.sh (comming soon) ver.0.3
 * debianbudgie.sh (stable) ver.1.0
-* debiancinnamon.sh (stable) ver.2.0
+* debiancinnamon.sh (very stable) ver.2.0
 * debianfvwm.sh (stable) ver.1.0
 * debiangnome.sh (stable) ver.1.0
-* debianlxde.sh (stable) ver.2.0
+* debianlxde.sh (very stable) ver.2.0
 * debianmate.sh (stable) ver.1.0
-* debianxfce4.sh (stable) ver.2.0
+* debianxfce4.sh (very stable) ver.2.0
 
 ### known bugs
 
@@ -21,7 +21,7 @@
 * Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
 
-### QaA
+### QnA
 
 * Q: Why?
 * A: Why Not.
