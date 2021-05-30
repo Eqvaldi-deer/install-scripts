@@ -6,7 +6,7 @@
 # Info
 
 * archlinuxgnome.sh (unstable) ver.0.6
-* debianlxqt.sh (comming soon) ver.0.3
+* debianlxqt.sh (semi-stable) ver.0.9
 * debianbudgie.sh (stable) ver.1.0
 * debiancinnamon.sh (very stable) ver.2.0
 * debianfvwm.sh (stable) ver.1.0
@@ -18,6 +18,7 @@
 ### known bugs
 
 * Mate desktop (nvidia-driver couses everything to be oversized)
+* LXQT mas issues with some usb audio devices.
 * Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
 
