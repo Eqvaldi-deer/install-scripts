@@ -21,6 +21,40 @@
 * Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
 
+### QaA
+
+* Q: Why?
+* A: Why Not.
+
+
+
+* Q: What is the point?
+* A: To make DEs run on low end hardware. (example:embedded devices and thin clients etc.)
+
+
+
+* Q: Do you support devices with 1 cpu core and 512mb of ram?
+* A: yes but you need to install lxde lxqt or FVWM.
+
+
+
+* Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
+* A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM,budgie.
+
+
+
+* Q: why are you not using Firefox,Brave,etc?
+* A: we use what works on as many hardware platforms as posible. (example:chromium is used on RaspberryPi OS,Armbian)
+
+
+
+* Q: What about Brave,etc?
+* A: we use what is located in the debian repos.
+
+
+
+### Install
+
 debiancinnamon.sh    
 * installs cinnamon desktop 
 * installs core applications (webbrowser, text editor, etc.)
@@ -73,5 +107,5 @@ debiangames.sh
 archlinuxgnome.sh
 
 ---
-Editor of this readme
-> [BeanGreen247](https://github.com/BeanGreen247)
+credits
+> [BeanGreen247](https://github.com/BeanGreen247) (For this readme file and archlinuxgnome.sh)
