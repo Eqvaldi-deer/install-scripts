@@ -42,6 +42,8 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * A: yes but you need to install lxde lxqt or FVWM.
 * Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
 * A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM,budgie.
+* Q: Do you support Armbian?
+* A: Yes but only XFCE4 LXDE.
 * Q: why are you not using Firefox,Brave,etc?
 * A: we use what works on as many hardware platforms as posible. (example:chromium is used on RaspberryPi OS,Armbian)
 * Q: What about Brave,etc?
@@ -98,6 +100,11 @@ debiangames.sh
 ### NOTE: arch linux scripts are for bash and you have to have git installed
 
 archlinuxgnome.sh
+
+### NOTE: Armbian scripts are for bash and you have to have git installed
+
+* ArmbiandebianXFCE4.sh
+* ArmbiandebianLXDE.sh
 
 ---
 credits
