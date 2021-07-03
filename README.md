@@ -17,6 +17,16 @@
 * debianmate.sh (very stable) ver.2.0
 * debianxfce4.sh (very stable) ver.2.0
 
+very stable - tested on both VMs and real hardware, no issues
+
+stable - tested in VMs and real hardware, but some issues may pop up
+
+semi-stable - same as stable, but has more issues
+
+unstable - tested in VMs and real hardware, but not recommended for daily use
+
+experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
+
 # Ram usage in MB
 
 * Armbian XFCE4 
@@ -30,16 +40,6 @@
 * debian lxde 
 * debian mate 
 * debian xfce4 
-
-very stable - tested on both VMs and real hardware, no issues
-
-stable - tested in VMs and real hardware, but some issues may pop up
-
-semi-stable - same as stable, but has more issues
-
-unstable - tested in VMs and real hardware, but not recommended for daily use
-
-experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
 ### known bugs
 
