@@ -5,15 +5,31 @@
 
 # Info
 
-* archlinuxgnome.sh (semi-stable) ver.0.9
-* debianlxqt.sh (semi-stable) ver.0.9
+* ArmbiandebianXFCE4.sh (very stable) ver.2.0
+* ArmbiandebianLXDE.sh (very stable) ver.2.0
+* archlinuxgnome.sh (stable) ver.1.6
+* debianlxqt.sh (stable) ver.1.2
 * debianbudgie.sh (stable) ver.1.0
 * debiancinnamon.sh (very stable) ver.2.0
-* debianfvwm.sh (stable) ver.1.0
-* debiangnome.sh (stable) ver.1.0
+* debianfvwm.sh (very stable) ver.1.8
+* debiangnome.sh (very stable) ver.2.0
 * debianlxde.sh (very stable) ver.2.0
-* debianmate.sh (stable) ver.1.0
+* debianmate.sh (very stable) ver.2.0
 * debianxfce4.sh (very stable) ver.2.0
+
+# Ram usage in MB
+
+* Armbian XFCE4 
+* Armbian LXDE 190MB
+* archlinux gnome (Wayland 464MB) (Xorg 486MB)
+* debian lxqt 290MB
+* debian budgie 
+* debian cinnamon 
+* debian fvwm 
+* debian gnome 
+* debian lxde 
+* debian mate 
+* debian xfce4 
 
 very stable - tested on both VMs and real hardware, no issues
 
