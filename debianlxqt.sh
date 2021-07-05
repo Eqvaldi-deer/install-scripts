@@ -47,7 +47,7 @@ apt install libcurl4-openssl-dev -y
 apt install libalut-dev -y
 apt install libsdl2-dev -y
 apt install libsdl2-mixer-dev -y
-apt install libgtk-3-dev -y
+apt install libgtk-3-dev libgtk3-perl -y
 apt purge disk-manager -y 
 apt purge qlipper -y
 apt update -y
