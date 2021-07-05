@@ -5,17 +5,20 @@
 
 # Info
 
-* ArmbiandebianXFCE4.sh (very stable) ver.2.0
-* ArmbiandebianLXDE.sh (very stable) ver.2.0
-* archlinuxgnome.sh (stable) ver.1.6
-* debianlxqt.sh (stable) ver.1.2
-* debianbudgie.sh (stable) ver.1.0
-* debiancinnamon.sh (very stable) ver.2.0
-* debianfvwm.sh (very stable) ver.1.8
-* debiangnome.sh (very stable) ver.2.0
-* debianlxde.sh (very stable) ver.2.0
-* debianmate.sh (very stable) ver.2.0
-* debianxfce4.sh (very stable) ver.2.0
+| NAME                        | STATE       | VERSION   | MAINTAINER   |
+| :-------------------------- | :---------- | :-------- | :----------- |
+| ArmbiandebianXFCE4.sh       | very stable | 2.0.245   | Eqvaldi-deer |
+| ArmbiandebianLXDE.sh        | very stable | 2.0.245   | Eqvaldi-deer |
+| archlinuxgnome.sh           | stable      | 1.6.021   | BeanGreen247 |
+| debianlxqt.sh               | stable      | 1.6.283   | Eqvaldi-deer |
+| debianbudgie.sh             | stable      | 1.0.137   | Eqvaldi-deer |
+| debiancinnamon.sh           | very stable | 2.0.245   | Eqvaldi-deer |
+| debianfvwm.sh               | very stable | 1.8.245   | Eqvaldi-deer |
+| debiangnome.sh              | very stable | 2.0.245   | Eqvaldi-deer |
+| debianlxde.sh               | very stable | 2.0.245   | Eqvaldi-deer |
+| debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
+| debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
+| debianE17.sh                | under dev.  | 0.001     | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
@@ -33,10 +36,10 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * Armbian LXDE 190MB
 * archlinux gnome (Wayland 464MB) (Xorg 486MB)
 * debian lxqt 290MB
-* debian budgie 
-* debian cinnamon 
+* debian budgie 270MB
+* debian cinnamon 450MB
 * debian fvwm 
-* debian gnome 
+* debian gnome (Wayland 541MB) (Xorg 556MB)
 * debian lxde 
 * debian mate 
 * debian xfce4 
