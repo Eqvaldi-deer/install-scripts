@@ -38,11 +38,11 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * debian lxqt 290MB
 * debian budgie 270MB
 * debian cinnamon 450MB
-* debian fvwm 
+* debian fvwm 180MB
 * debian gnome (Wayland 541MB) (Xorg 556MB)
-* debian lxde 
-* debian mate 
-* debian xfce4 
+* debian lxde 190-230MB
+* debian mate 240-320MB
+* debian xfce4 280-360MB
 
 ### known bugs
 
