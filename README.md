@@ -18,7 +18,7 @@
 | debianlxde.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
-| debianE17.sh                | under dev.  | 0.001     | Eqvaldi-deer |
+| debianE17.sh                | under dev.  | 0.028     | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
@@ -32,7 +32,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
 # Ram usage in MB
 
-* Armbian XFCE4 
+* Armbian XFCE4 240-360MB
 * Armbian LXDE 190MB
 * archlinux gnome (Wayland 464MB) (Xorg 486MB)
 * debian lxqt 290MB
