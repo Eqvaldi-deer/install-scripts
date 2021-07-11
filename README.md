@@ -19,6 +19,7 @@
 | debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
 | debianE17.sh                | under dev.  | 0.028     | Eqvaldi-deer |
+| debianXFCEBM.sh             | stable      | 1.0.689   | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
@@ -43,6 +44,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * debian lxde 190-230MB
 * debian mate 240-320MB
 * debian xfce4 280-360MB
+* debian xfce4 BM (Bare-Minimum-Version) 
 
 ### known bugs
 
