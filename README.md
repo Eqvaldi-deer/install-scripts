@@ -38,7 +38,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * archlinux gnome (Wayland 464MB) (Xorg 486MB)
 * debian lxqt 290MB
 * debian budgie 270MB
-* debian cinnamon 450MB
+* debian cinnamon 550-590MB
 * debian fvwm 180MB
 * debian gnome (Wayland 541MB) (Xorg 556MB)
 * debian lxde 190-230MB
