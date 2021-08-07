@@ -53,6 +53,13 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
 
+### Supported Distros
+
+* Debian stretch (Old-stable)
+* Debian Buster (Stable)
+* Debian Bullseye (Testing)
+* Debian Sid (Unstable)
+
 ### QnA
 
 * Q: Why?
