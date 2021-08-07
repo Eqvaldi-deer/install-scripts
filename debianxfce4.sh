@@ -1,5 +1,9 @@
 #!/bin/sh
 apt update
+apt install dialog -y
+
+dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
+
 apt install xfce4 xfce4-terminal -y
 apt install file-roller -y
 apt install network-manager-gnome -y
