@@ -1,5 +1,9 @@
 #!/bin/sh
 apt update
+apt install dialog -y
+
+dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
+
 apt install gnome-shell -y
 apt install gnome-session -y
 apt install gnome-terminal -y
