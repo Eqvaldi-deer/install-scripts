@@ -1,5 +1,9 @@
 #!/bin/sh
 apt update -y
+apt install dialog -y
+
+dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
+
 apt install fvwm -y
 apt install thunar -y
 apt install light-locker -y
