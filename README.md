@@ -18,7 +18,6 @@
 | debianlxde.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
-| debianE17.sh                | under dev.  | 0.028     | Eqvaldi-deer |
 | debianXFCEBM.sh             | stable      | 1.8.864   | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
