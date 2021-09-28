@@ -1,6 +1,6 @@
 #!/bin/sh
 apt update -y
-apt install gufw -y
+#apt install gufw -y
 apt install handbrake -y
 apt install audacious -y
 apt install audacity -y
