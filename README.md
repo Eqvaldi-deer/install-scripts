@@ -112,7 +112,7 @@ debiangames.sh
 [OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
 
 
-### NOTE: Armbian scripts are for bash and you have to have git installed
+### NOTE: Armbian scripts are for bash only
 
 * ArmbiandebianXFCE4.sh
 * ArmbiandebianLXDE.sh
