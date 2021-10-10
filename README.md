@@ -27,7 +27,7 @@ unstable - tested in VMs and real hardware, but not recommended for daily use
 
 experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
-# Ram usage in MB (Note:Ram usage may be different on )
+# Ram usage in MB (Note:Ram  usage may varies greatly depending on distro/arch)
 
 * Armbian XFCE4 240-360MB
 * Armbian LXDE 190MB
@@ -50,6 +50,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * Debian Bullseye (Stable)
 * Debian Bookworm (Testing)
 * Debian Sid (Unstable)
+* Debian Armbian Bullseye (Stable)
 
 ### QnA
 
@@ -90,9 +91,6 @@ debianprinter.sh
 
 debiantononfree.sh
 * edits your sources.list file by adding contrib and non-free (nonfree)
-
-debianunstable.sh 
-* moves you to debian unstable
 
 debiannonfreefirmware.sh
 * install firmware for realtek, misc and amd gpu firmware (commented out)
