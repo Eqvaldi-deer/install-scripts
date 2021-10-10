@@ -9,12 +9,9 @@
 | :-------------------------- | :---------- | :-------- | :----------- |
 | ArmbiandebianXFCE4.sh       | very stable | 2.0.245   | Eqvaldi-deer |
 | ArmbiandebianLXDE.sh        | very stable | 2.0.245   | Eqvaldi-deer |
-| archlinuxgnome.sh           | stable      | 1.6.021   | BeanGreen247 |
 | debianlxqt.sh               | stable      | 1.6.283   | Eqvaldi-deer |
-| debianbudgie.sh             | stable      | 1.0.137   | Eqvaldi-deer |
 | debiancinnamon.sh           | very stable | 2.0.245   | Eqvaldi-deer |
 | debianfvwm.sh               | very stable | 1.8.245   | Eqvaldi-deer |
-| debiangnome.sh              | very stable | 2.0.245   | Eqvaldi-deer |
 | debianlxde.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
 | debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
@@ -42,7 +39,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * debian gnome (Wayland 541MB) (Xorg 556MB)
 * debian lxde 190-230MB
 * debian mate 240-320MB
-* debian xfce4 280-360MB
+* debian xfce4 280-458MB
 * debian xfce4 BM (Bare-Minimum-Version) (199-210MB)
 
 ### known bugs
