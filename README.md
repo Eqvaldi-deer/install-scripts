@@ -27,7 +27,7 @@ unstable - tested in VMs and real hardware, but not recommended for daily use
 
 experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
-# Ram usage in MB (Note:Ram  usage may varies greatly depending on distro/arch)
+# Ram usage in MB (Note:Ram  usage varies greatly depending on distro/arch)
 
 * Armbian XFCE4 240-360MB
 * Armbian LXDE 190MB
