@@ -7,15 +7,15 @@
 
 | NAME                        | STATE       | VERSION   | MAINTAINER   |
 | :-------------------------- | :---------- | :-------- | :----------- |
-| ArmbiandebianXFCE4.sh       | very stable | 2.0.245   | Eqvaldi-deer |
-| ArmbiandebianLXDE.sh        | very stable | 2.0.245   | Eqvaldi-deer |
-| debianlxqt.sh               | stable      | 1.6.283   | Eqvaldi-deer |
-| debiancinnamon.sh           | very stable | 2.0.245   | Eqvaldi-deer |
-| debianfvwm.sh               | very stable | 1.8.245   | Eqvaldi-deer |
-| debianlxde.sh               | very stable | 2.0.245   | Eqvaldi-deer |
-| debianmate.sh               | very stable | 2.0.245   | Eqvaldi-deer |
-| debianxfce4.sh              | very stable | 2.0.245   | Eqvaldi-deer |
-| debianXFCEBM.sh             | stable      | 1.8.864   | Eqvaldi-deer |
+| ArmbiandebianXFCE4.sh       | very stable | 2.0.260   | Eqvaldi-deer |
+| ArmbiandebianLXDE.sh        | very stable | 2.0.260   | Eqvaldi-deer |
+| debianlxqt.sh               | stable      | 1.6.288   | Eqvaldi-deer |
+| debiancinnamon.sh           | very stable | 2.0.260   | Eqvaldi-deer |
+| debianfvwm.sh               | very stable | 1.8.248   | Eqvaldi-deer |
+| debianlxde.sh               | very stable | 2.0.260   | Eqvaldi-deer |
+| debianmate.sh               | very stable | 2.0.260   | Eqvaldi-deer |
+| debianxfce4.sh              | very stable | 2.0.260   | Eqvaldi-deer |
+| debianXFCEBM.sh             | stable      | 1.8.868   | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
@@ -27,16 +27,13 @@ unstable - tested in VMs and real hardware, but not recommended for daily use
 
 experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
-# Ram usage in MB
+# Ram usage in MB (Note:Ram usage may be different on )
 
 * Armbian XFCE4 240-360MB
 * Armbian LXDE 190MB
-* archlinux gnome (Wayland 464MB) (Xorg 486MB)
 * debian lxqt 290MB
-* debian budgie 270MB
 * debian cinnamon 550-590MB
 * debian fvwm 180MB
-* debian gnome (Wayland 541MB) (Xorg 556MB)
 * debian lxde 190-230MB
 * debian mate 240-320MB
 * debian xfce4 280-458MB
@@ -44,16 +41,14 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 
 ### known bugs
 
-* Mate desktop (nvidia-driver causes everything to be oversized)
 * LXQT mas issues with some usb audio devices.
-* Archlinuxgnome (tested only on a VM)
 * Gbm3 (will not run on low end hardware for example raspi4/400)
 
 ### Supported Distros
 
-* Debian stretch (Old-stable)
-* Debian Buster (Stable)
-* Debian Bullseye (Testing)
+* Debian Buster (Old-stable)
+* Debian Bullseye (Stable)
+* Debian Bookworm (Testing)
 * Debian Sid (Unstable)
 
 ### QnA
@@ -99,9 +94,6 @@ debiantononfree.sh
 debianunstable.sh 
 * moves you to debian unstable
 
-debiantesting.sh 
-* moves you to debian testing
-
 debiannonfreefirmware.sh
 * install firmware for realtek, misc and amd gpu firmware (commented out)
 
@@ -121,9 +113,6 @@ debiangames.sh
 
 [OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
 
-### NOTE: arch linux scripts are for bash and you have to have git installed
-
-archlinuxgnome.sh
 
 ### NOTE: Armbian scripts are for bash and you have to have git installed
 
@@ -132,4 +121,4 @@ archlinuxgnome.sh
 
 ---
 credits
-> [BeanGreen247](https://github.com/BeanGreen247) (For this readme file and archlinuxgnome.sh)
+> [BeanGreen247](https://github.com/BeanGreen247) (For this readme file)
