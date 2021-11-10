@@ -25,6 +25,8 @@ apt install gparted -y
 apt install xarchiver -y
 apt install p7zip -y
 apt install zip unzip -y
+apt install uuid-runtime
+apt install thunar-archive-plugin
 apt install libgtk-3-dev libgtk3-perl -y
 apt update -y
 apt upgrade -y
