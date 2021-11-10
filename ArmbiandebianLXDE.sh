@@ -16,6 +16,7 @@ apt install xarchiver -y
 apt install usb-modeswitch -y
 apt install p7zip -y
 apt install zip unzip -y
+apt install uuid-runtime -y
 apt install mesa-utils-extra -y
 apt install gvfs-backends -y
 apt install gvfs-common -y
