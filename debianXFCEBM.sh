@@ -28,6 +28,14 @@ apt install zip unzip -y
 apt install uuid-runtime -y
 apt install thunar-archive-plugin -y
 apt install libgtk-3-dev libgtk3-perl -y
+apt install ffmpeg -y
+apt install libavcodec58 -y
+apt install exfalso -y
+apt install font-manager -y
+apt install libjpeg-dev -y
+apt install gnome-screenshot -y
+apt install catfish -y
+apt install thunar-archive-plugin -y
 apt update -y
 apt upgrade -y
 apt update -y
