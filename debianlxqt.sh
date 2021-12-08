@@ -53,6 +53,12 @@ apt install libalut-dev -y
 apt install libsdl2-dev -y
 apt install libsdl2-mixer-dev -y
 apt install libgtk-3-dev libgtk3-perl -y
+apt install ffmpeg -y
+apt install libavcodec58 -y
+apt install exfalso -y
+apt install font-manager -y
+apt install libjpeg-dev -y
+apt install gnome-screenshot -y
 apt purge disk-manager -y 
 apt purge qlipper -y
 apt update -y
