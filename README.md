@@ -7,15 +7,15 @@
 
 | NAME                        | STATE       | VERSION   | MAINTAINER   |
 | :-------------------------- | :---------- | :-------- | :----------- |
-| ArmbiandebianXFCE4.sh       | very stable | 2.0.260   | Eqvaldi-deer |
-| ArmbiandebianLXDE.sh        | very stable | 2.0.260   | Eqvaldi-deer |
-| debianlxqt.sh               | stable      | 1.6.288   | Eqvaldi-deer |
-| debiancinnamon.sh           | very stable | 2.0.260   | Eqvaldi-deer |
-| debianfvwm.sh               | very stable | 1.8.248   | Eqvaldi-deer |
-| debianlxde.sh               | very stable | 2.0.260   | Eqvaldi-deer |
-| debianmate.sh               | very stable | 2.0.260   | Eqvaldi-deer |
-| debianxfce4.sh              | very stable | 2.0.260   | Eqvaldi-deer |
-| debianXFCEBM.sh             | stable      | 1.8.868   | Eqvaldi-deer |
+| ArmbiandebianXFCE4.sh       | very stable | 3.0.0   | Eqvaldi-deer |
+| ArmbiandebianLXDE.sh        | very stable | 3.0.0   | Eqvaldi-deer |
+| debianlxqt.sh               | stable      | 2.4.0   | Eqvaldi-deer |
+| debiancinnamon.sh           | very stable | 3.0.0   | Eqvaldi-deer |
+| debianfvwm.sh               | very stable | 2.6.0   | Eqvaldi-deer |
+| debianlxde.sh               | very stable | 3.0.0   | Eqvaldi-deer |
+| debianmate.sh               | very stable | 3.0.0   | Eqvaldi-deer |
+| debianxfce4.sh              | very stable | 3.0.0   | Eqvaldi-deer |
+| debianXFCEBM.sh             | stable      | 3.0.0   | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
