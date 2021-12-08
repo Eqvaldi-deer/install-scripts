@@ -61,10 +61,10 @@ apt install libsdl2-mixer-dev -y
 apt install libgtk-3-dev libgtk3-perl -y
 apt install ffmpeg -y
 apt install libavcodec58 -y
-sudo apt install exfalso
-sudo apt install font-manager
-sudo apt install libjpeg-dev
-sudo apt install gnome-screenshot
+apt install exfalso -y
+apt install font-manager -y
+apt install libjpeg-dev -y
+apt install gnome-screenshot -y
 #apt install libmali-xu4-x11-gbm-fbdev
 apt update -y
 apt upgrade -y
