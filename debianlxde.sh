@@ -4,9 +4,7 @@ apt install dialog -y
 
 dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
 
-apt install openbox -y
-apt install lxsession -y
-apt install lxde-common -y
+apt install openbox lxsession lxde-common -y
 apt install xfce4-notifyd -y
 apt install xfce4-power-manager -y
 apt install xfce4-power-manager-plugins -y
