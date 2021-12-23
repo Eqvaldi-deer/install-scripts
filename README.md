@@ -78,7 +78,7 @@ debiancinnamon.sh
 ### The listed scripts below are the same as the **debiancinnamon.sh** with the only dfference being the desktop enviroment selected and app related with the DE of your choice
 > debianlxde.sh       //LXDE
 > 
-> debianmatefull.sh   //MATE
+> debianmate.sh       //MATE
 >     
 > debianxfce4.sh      //XFCE
 
@@ -107,7 +107,7 @@ debianoffice.sh
 debiangames.sh
 * adds games, some are commennted out, to install them make sure to edit the script by commenting them out
 
-### NOTE: if you want the older scripts make sure to he to the link below!
+### NOTE: if you want the older scripts make sure to go to the link below!
 
 [OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
 
