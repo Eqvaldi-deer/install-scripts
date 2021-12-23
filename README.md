@@ -61,7 +61,7 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * Q: Do you support devices with 1 cpu core and 512mb of ram?
 * A: yes but you need to install lxde lxqt or FVWM.
 * Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
-* A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM,budgie.
+* A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM.
 * Q: Do you support Armbian?
 * A: Yes but only XFCE4 LXDE.
 * Q: why are you not using Firefox,Brave,etc?
