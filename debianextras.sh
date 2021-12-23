@@ -1,8 +1,6 @@
 #!/bin/sh
 apt update -y
 #apt install gufw -y
-apt install ffmpeg -y
-apt install libavcodec58 -y
 apt install handbrake -y
 apt install audacious -y
 #apt install audacity -y
