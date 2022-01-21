@@ -7,15 +7,16 @@
 
 | NAME                        | STATE       | VERSION   | MAINTAINER   |
 | :-------------------------- | :---------- | :-------- | :----------- |
-| ArmbiandebianXFCE4.sh       | very stable | 3.0.0   | Eqvaldi-deer |
-| ArmbiandebianLXDE.sh        | very stable | 3.0.0   | Eqvaldi-deer |
-| debianlxqt.sh               | stable      | 2.4.0   | Eqvaldi-deer |
-| debiancinnamon.sh           | very stable | 3.0.0   | Eqvaldi-deer |
-| debianfvwm.sh               | very stable | 2.6.0   | Eqvaldi-deer |
-| debianlxde.sh               | very stable | 3.0.0   | Eqvaldi-deer |
-| debianmate.sh               | very stable | 3.0.0   | Eqvaldi-deer |
-| debianxfce4.sh              | very stable | 3.0.0   | Eqvaldi-deer |
-| debianXFCEBM.sh             | stable      | 3.0.0   | Eqvaldi-deer |
+| ArmbiandebianXFCE4.sh       | very stable | 3.0.0     | Eqvaldi-deer |
+| ArmbiandebianLXDE.sh        | very stable | 3.0.0     | Eqvaldi-deer |
+| debianlxqt.sh               | stable      | 2.4.0     | Eqvaldi-deer |
+| debiancinnamon.sh           | very stable | 3.0.0     | Eqvaldi-deer |
+| debianfvwm.sh               | very stable | 2.8.0     | Eqvaldi-deer |
+| debianicewm.sh              | very stable | 2.8.0     | Eqvaldi-deer |
+| debianlxde.sh               | very stable | 3.0.0     | Eqvaldi-deer |
+| debianmate.sh               | very stable | 3.0.0     | Eqvaldi-deer |
+| debianxfce4.sh              | very stable | 3.0.0     | Eqvaldi-deer |
+| debianXFCEBM.sh             | stable      | 3.0.0     | Eqvaldi-deer |
 
 very stable - tested on both VMs and real hardware, no issues
 
@@ -26,18 +27,6 @@ semi-stable - same as stable, but has more issues
 unstable - tested in VMs and real hardware, but not recommended for daily use
 
 experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
-
-# Ram usage in MB (Note:Ram  usage varies greatly depending on distro/arch)
-
-* Armbian XFCE4 240-360MB
-* Armbian LXDE 190MB
-* debian lxqt 290MB
-* debian cinnamon 550-590MB
-* debian fvwm 180MB
-* debian lxde 190-230MB
-* debian mate 240-320MB
-* debian xfce4 280-458MB
-* debian xfce4 BM (Bare-Minimum-Version) (199-210MB)
 
 ### known bugs
 
@@ -59,11 +48,11 @@ experimental - untested, for dev purposes only (USE AT YOUR OWN RISK)
 * Q: What is the point?
 * A: To make DEs run on low end hardware. (example:embedded devices and thin clients etc.)
 * Q: Do you support devices with 1 cpu core and 512mb of ram?
-* A: yes but you need to install lxde lxqt or FVWM.
+* A: yes but you need to install lxde lxqt or FVWM,IceWM.
 * Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
-* A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM.
+* A: Yes but you need to use lxde,lxqt,mate,xfce,FVWM,IceWM.
 * Q: Do you support Armbian?
-* A: Yes but only XFCE4 LXDE.
+* A: Yes but only XFCE4 LXDE,IceWM.
 * Q: why are you not using Firefox,Brave,etc?
 * A: we use what works on as many hardware platforms as posible. (example:chromium is used on RaspberryPi OS,Armbian)
 * Q: What about Brave,etc?
@@ -116,7 +105,3 @@ debiangames.sh
 
 * ArmbiandebianXFCE4.sh
 * ArmbiandebianLXDE.sh
-
----
-credits
-> [BeanGreen247](https://github.com/BeanGreen247) (For this readme file)
