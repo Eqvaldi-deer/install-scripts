@@ -105,3 +105,4 @@ debiangames.sh
 
 * ArmbiandebianXFCE4.sh
 * ArmbiandebianLXDE.sh
+* Armbiandebianicewm.sh
