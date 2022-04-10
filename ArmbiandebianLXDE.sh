@@ -9,6 +9,7 @@ apt install lxappearance -y
 apt install xfce4-notifyd -y
 apt install xfce4-power-manager -y
 apt install xfce4-power-manager-plugins -y
+apt install ristretto -y
 apt install pavucontrol -y
 apt install tumbler -y
 apt install mesa-utils -y
