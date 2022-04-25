@@ -65,7 +65,7 @@ apt install exfalso -y
 apt install flac -y
 apt install font-manager -y
 apt install libjpeg-dev -y
-apt install gnome-screenshot -y
+apt install xfce4-screenshooter -y
 #apt install libmali-xu4-x11-gbm-fbdev
 apt update -y
 apt upgrade -y
