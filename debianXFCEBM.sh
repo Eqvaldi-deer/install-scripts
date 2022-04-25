@@ -33,7 +33,7 @@ apt install libavcodec58 -y
 apt install exfalso -y
 apt install font-manager -y
 apt install libjpeg-dev -y
-apt install gnome-screenshot -y
+apt install xfce4-screenshooter -y
 apt install catfish -y
 apt install thunar-archive-plugin -y
 apt update -y
