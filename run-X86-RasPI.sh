@@ -6,7 +6,6 @@ dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
 
 dialog --sleep 2 --msgbox "known bugs
 Mate/lxde desktop (nvidia-driver causes everything to be oversized)
-LXQT mas issues with some usb audio devices.
 Gbm3 (will not run on low end hardware for example raspi4/400)" 0 0
 
 cmd=(dialog --keep-tite --menu "Select Desktop Environment:" 22 76 16)
