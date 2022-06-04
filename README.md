@@ -41,9 +41,4 @@ run-X86-RasPI.sh
 
 run-ARM.sh
 
-### NOTE: if you want the older scripts make sure to go to the link below!
-
-[OLD SCRIPTS repo](https://github.com/LOSOperatingsystem/install-scripts-LOS-OLD-)
-
-
 ### NOTE: Armbian scripts are for bash only
