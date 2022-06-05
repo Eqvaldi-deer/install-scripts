@@ -16,7 +16,7 @@ do
 
             options=(1 "chromium"
                      2 "firefox-esr"
-                     3 "qutebrowser"
+                     3 "qutebrowser (Armbian)"
                      4 "Do not install")
 
             choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
