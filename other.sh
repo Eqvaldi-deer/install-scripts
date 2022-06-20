@@ -11,7 +11,7 @@ for choice in $choices
 do
     case $choice in
         1)
-            apt install gufw handbrake audacious audacity putty gimp dosbox milkytracker -y
+            apt install gufw handbrake audacious audacity putty gimp dosbox milkytracker cmake -y
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
@@ -43,7 +43,7 @@ do
             done
             ;;
         2)
-            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth prboom-plus freedoom dosbox milkytracker -y
+            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth prboom-plus freedoom dosbox milkytracker cmake -y
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
@@ -75,7 +75,7 @@ do
             done
             ;;
         3)
-            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth mixxx ardour prboom-plus freedoom dosbox minetest* bsdgames gnome-2048 gnome-breakout milkytracker -y
+            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth mixxx ardour prboom-plus freedoom dosbox minetest* bsdgames gnome-2048 gnome-breakout milkytracker cmake -y
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
