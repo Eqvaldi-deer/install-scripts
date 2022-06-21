@@ -1,4 +1,20 @@
 #!/bin/sh
+echo ============================================================================
+echo                                                                               
+echo                                                                               
+echo                    Copyright © Eqvaldi-deer/Eqvaldi-records                   
+echo                                                                               
+echo                                                                               
+echo                                   2017-2022                                   
+echo                                                                               
+echo                               special thanks to:                              
+echo                                                                             
+echo                          BeanGreen247/Tomáš Mozdřeň                         
+echo                                                                             
+echo                    Github: https://github.com/BeanGreen247                  
+echo                                                                                                                                                          
+echo ============================================================================
+
 apt update
 apt install dialog -y
 
