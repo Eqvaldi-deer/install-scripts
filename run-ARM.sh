@@ -29,7 +29,7 @@ cmd=(dialog --keep-tite --menu "Select Desktop Environment:" 22 76 16)
 options=( 1 "XFCE"
           2 "LXDE"
           3 "Mate"
-          4 "Cinnamon (beta)"
+          4 "Cinnamon"
           5 "Skip to Firmware install")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
