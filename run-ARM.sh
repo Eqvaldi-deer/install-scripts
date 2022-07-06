@@ -95,7 +95,7 @@ do
             ;;            
         5)
             apt install adwaita-icon-theme at-spi2-core baobab caribou dconf-cli dconf-gsettings-backend eog evolution-data-server f3 fonts-cantarell gdm3 gedit gkbd-capplet glib-networking gnome-bluetooth gnome-calculator gnome-characters gnome-control-center gnome-logs gnome-menus gnome-session gnome-settings-daemon gnome-shell gnome-shell-extensions gnome-system-monitor gnome-terminal gnome-themes-extra gnome-user-share gsettings-desktop-schemas gstreamer1.0-packagekit gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-pulseaudio gvfs-backends gvfs-fuse libatk-adaptor libcanberra-pulse libglib2.0-bin libproxy1-plugin-gsettings libproxy1-plugin-webkit librsvg2-common pulseaudio pulseaudio-module-bluetooth sound-theme-freedesktop system-config-printer-common system-config-printer-udev tracker zenity file-roller network-manager-gnome gnome-calculator ghostscript-x libmtp-runtime vlc neofetch xorg synaptic gdebi htop gnome-icon-theme nemo usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse gedit inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-extra gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec58 exfalso flac font-manager libjpeg-dev libglx-mesa0 libgl1-mesa-dri gnome-screenshot -y
-            apt purge disk-manager qlipper snapd -y
+            apt purge snapd -y
             apt update
             apt upgrade -y
             rm /etc/apt/sources.list.d/vscode.list
