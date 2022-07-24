@@ -16,7 +16,7 @@ echo
 echo ============================================================================
 
 apt update
-apt install dialog -y
+apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev -y
 
 dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
 
