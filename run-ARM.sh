@@ -91,7 +91,7 @@ do
             echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
             echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
             cat /etc/apt/preferences.d/nosnap.pref
-            bash ./configurerepos.sh
+            bash ./configurereposARM.sh
             ;;            
         5)
             apt install icewm thunar pulseaudio pasystray light-locker lightdm-gtk-greeter-settings lightdm file-roller f3 network-manager-gnome galculator ghostscript-x libmtp-runtime vlc neofetch ristretto xorg synaptic gdebi htop gnome-icon-theme usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-extra gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec58 exfalso flac font-manager libjpeg-dev xfce4-screenshooter catfish libglx-mesa0 libgl1-mesa-dri thunar-archive-plugin -y
@@ -104,7 +104,7 @@ do
             echo 'Pin: release a=*' >> /etc/apt/preferences.d/nosnap.pref
             echo 'Pin-Priority: -10' >> /etc/apt/preferences.d/nosnap.pref
             cat /etc/apt/preferences.d/nosnap.pref
-            bash ./configurerepos.sh
+            bash ./configurereposARM.sh
             ;;
           6)
             bash ./configurereposARM.sh
