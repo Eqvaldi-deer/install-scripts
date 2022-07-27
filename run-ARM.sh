@@ -30,7 +30,7 @@ options=( 1 "XFCE"
           2 "LXDE"
           3 "Mate"
           4 "Cinnamon"
-          5 "IceWM"
+          5 "Budgie"
           6 "Skip to Firmware install")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
@@ -98,7 +98,7 @@ do
             bash ./configurereposARM.sh
             ;;            
         5)
-            apt install icewm thunar pulseaudio pasystray light-locker lightdm-gtk-greeter-settings lightdm file-roller f3 network-manager-gnome galculator ghostscript-x libmtp-runtime vlc neofetch ristretto xorg synaptic gdebi htop gnome-icon-theme usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-extra gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec58 exfalso flac font-manager libjpeg-dev xfce4-screenshooter catfish libglx-mesa0 libgl1-mesa-dri thunar-archive-plugin -y
+            apt install dconf-gsettings-backend gnome-screensaver gnome-session-bin gnome-session-common gnome-settings-daemon libasound2 libbudgie-plugin0 libbudgie-private0 libbudgietheme0 libc6 libcairo2 libgdk-pixbuf-2.0-0 libgirepository-1.0-1 libgles2 libglib2.0-0 libgnome-bluetooth13 libgnome-desktop-3-19 libgnome-menu-3-0 libgtk-3-0 libibus-1.0-5 libmutter-7-0 libnotify4 libpeas-1.0-0 libpolkit-agent-1-0 libpolkit-gobject-1-0 libpulse-mainloop-glib0 libpulse0 libraven0 libupower-glib3 libuuid1 libwnck-3-0 libx11-6 libxcomposite1 gir1.2-budgie-1.0 gnome-control-center gnome-menus network-manager-gnome budgie-desktop-view gnome-terminal nautilus -y
             apt install build-essential git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev -y
             apt update
             apt upgrade -y
