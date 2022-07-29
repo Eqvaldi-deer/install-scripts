@@ -77,7 +77,8 @@ do
           bash ./Debra-Ports.sh
             ;;
         7)
-          wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip
+          #git clone https://github.com/yquake2/yquake2.git
+	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip
 	  unzip *.zip
 	  rm -rf ./*.zip
 	  cd yquake2-QUAKE2_8_10/
