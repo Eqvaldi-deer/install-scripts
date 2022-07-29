@@ -16,8 +16,9 @@ options=(1 "Dhewm3"
          5 "Ioq3"
          6 "worldofpadman"
          7 "Yamagi Quake II"
-         8 "Duckstation"
-         9 "Exit")
+         8 "Duckstation (PSX emu.)"
+         9 "Flycast (Dreamcast emu.) (WIP)"
+	 10 "Exit")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -95,6 +96,15 @@ do
           bash ./Debra-Ports.sh
             ;;
         9)
+          git clone https://github.com/flyinghead/flycast.git
+	  cd flycast/
+	  cmake ./
+	  make
+	  cd ..
+	  cd ..
+          bash ./Debra-Ports.sh
+            ;;
+        10)
           exit
             ;;
 
