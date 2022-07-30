@@ -43,7 +43,8 @@ do
             done
             ;;
         2)
-            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth prboom-plus freedoom dosbox milkytracker cmake -y
+            apt install gufw handbrake audacious audacity putty gimp vlc-plugin-fluidsynth fluidsynth prboom-plus freedoom dosbox milkytracker cmake minetest* -y
+            apt purge minetest-server
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
