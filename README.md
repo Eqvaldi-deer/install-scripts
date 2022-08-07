@@ -12,10 +12,8 @@
 
 ### Supported Distros
 
-* Debian Buster (Old-stable)
 * Debian Bullseye (Stable)
 * Debian Bookworm (Testing)
-* Debian Sid (Unstable)
 * Debian Armbian Bullseye (Stable)
 
 ### QnA
@@ -42,3 +40,6 @@ run-X86-RasPI.sh
 run-ARM.sh
 
 ### NOTE: Armbian scripts are for bash only
+
+### configuration: Network Manager
+![](NetworkManager.png)
