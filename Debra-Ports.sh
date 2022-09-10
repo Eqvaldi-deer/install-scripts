@@ -2,7 +2,7 @@
 mkdir ./Debra-Ports
 cd ./Debra-Ports
 apt update 
-apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev openssl miniupnpc libao-dev -y
+apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev openssl libao-dev -y
 apt clean
 
 dialog --msgbox "DO NOT RUN Debra-Ports ON UBUNTU BASED DISTROS" 0 0
@@ -97,7 +97,9 @@ do
           bash ./Debra-Ports.sh
             ;;
         9)
-          git clone https://github.com/flyinghead/flycast.git
+          apt install libminiupnpc-dev liblua5.4-dev spirv-tools -y
+	  apt install mame-tools --no-install-recommends -y
+	  git clone https://github.com/flyinghead/flycast.git
 	  cd flycast/
 	  cmake ./
 	  make
