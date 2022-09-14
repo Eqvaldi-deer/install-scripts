@@ -8,8 +8,7 @@ options=(1 "Linux Firmware/Realtek Wlan/ETH Firmware"
          5 "Raspberry Pi Firmware"
          6 "Raspberry Pi Firmware/Widewine (RPIOS)"
          7 "ARM Server Firmware"
-         8 "ARM Server Firmware"
-         9 "Skip to headers install")
+         8 "Skip to headers install")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -41,14 +40,10 @@ do
             bash ./headersARM.sh
             ;;
         7)
-            apt install firmware-misc-nonfree firmware-linux-free ixp4xx-microcode -y
+            apt install firmware-misc-nonfree firmware-linux-free ixp4xx-microcode samba openssh-* -y
             bash ./headersARM.sh
             ;;
         8)
-            apt install firmware-misc-nonfree firmware-linux-free ixp4xx-microcode -y
-            bash ./headersARM.sh
-            ;;
-        9)
             bash ./headersARM.sh
             ;;
 
