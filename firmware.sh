@@ -50,11 +50,11 @@ do
             bash ./headers.sh
             ;;
         9)
-            apt install intel-microcode firmware-misc-nonfree firmware-linux-free ixp4xx-microcode -y
+            apt install intel-microcode firmware-misc-nonfree firmware-linux-free ixp4xx-microcode samba openssh-* -y
             bash ./headers.sh
             ;;
         10)
-            apt install amd64-microcode firmware-misc-nonfree firmware-linux-free ixp4xx-microcode -y
+            apt install amd64-microcode firmware-misc-nonfree firmware-linux-free ixp4xx-microcode samba openssh-* -y
             bash ./headers.sh
             ;;
         11)
