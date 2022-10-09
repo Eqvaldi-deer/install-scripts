@@ -32,6 +32,7 @@
 * A: we use what is located in the debian repos.
 
 ### How to Start using on PC/Server/Raspberry PI
+### NOTE: Armbian scripts are for bash only
 
 run-X86-RasPI.sh
 
@@ -39,7 +40,83 @@ run-X86-RasPI.sh
 
 run-ARM.sh
 
-### NOTE: Armbian scripts are for bash only
+
+### configuration: GPU Intel VAAPI Driver
+### NOTE: nonfree must be enabled before running this.
+### NOTE: This Driver will remove the Intel media driver pakage.
+
+This package contains the video decode and encode driver backend for the Intel G45 chipsets and Intel HD Graphics for the Intel Core processor family. 
+The supported platforms include:
+
+ * Cantiga, Intel GMA 4500MHD (GM45)
+ * Ironlake, Intel HD Graphics for 2010 Intel Core processor family
+ * Sandy Bridge, Intel HD Graphics for 2011 Intel Core processor family
+ * Ivy Bridge
+ * Haswell
+ * Broadwell
+ * Skylake
+ * Kaby Lake
+ * Coffee Lake
+ * Cannon Lake
+
+This package contains also contains the non-free encode shaders for VP8, VP9, HEVC and AVC for generation 7.5 hardware or newer.
+
+* To install run: sudo apt install i965-va-driver-shaders
+
+
+### configuration: NVIDIA
+### NOTE: nonfree must be enabled before running this.
+
+* Multiple precompiled driver versions are available for Debian 11 "Bullseye":
+
+
+* Version 470.129.06
+  Supports Kepler, Maxwell, Pascal, Turing, and all current Ampere GPUs. Supports Vulkan 1.2 and OpenGL 4.6.
+
+  supported devices:https://us.download.nvidia.com/XFree86/Linux-x86_64/470.129.06/README/supportedchips.html
+
+
+* Version 390.144
+  Supports Fermi, Kepler, Maxwell, and most Pascal GPUs. Supports Vulkan 1.0 on Kepler and newer, supports up to OpenGL 4.5 depending on your card.
+
+  supported devices:https://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html
+
+
+* To install 470.xxx.xx run: sudo apt install nvidia-driver
+* To install 390.xxx.xx run: sudo apt install nvidia-legacy-390xx-driver
+
+### NOTE: If not sure install NVIDIA detect: sudo apt install nvidia-detect
 
 ### configuration: Network Manager
-![](NetworkManager.png)
+
+* Wired Networks are Unmanaged by Default.
+
+* As of Debian 6.0 "Squeeze", NetworkManager does not manage any interface defined in /etc/network/interfaces by default.
+
+* Unmanaged devices means NetworkManager doesn't handle those network devices. This occurs when two conditions are met:
+
+* The file /etc/network/interfaces contains anything about the interface, even:
+
+  allow-hotplug eth0
+  iface eth0 inet dhcp
+  
+  
+  And /etc/NetworkManager/NetworkManager.conf contains:
+
+  [main]
+  plugins=ifupdown,keyfile
+
+  [ifupdown]
+  managed=false
+
+
+* Enabling Interface Management
+
+* If you want NetworkManager to handle interfaces that are enabled in /etc/network/interfaces:
+
+  Set managed=true in /etc/NetworkManager/NetworkManager.conf.
+
+
+* Restart NetworkManager: sudo service network-manager restart
+
+* Starting with Debian 11 (bullseye), use: sudo service NetworkManager restart
