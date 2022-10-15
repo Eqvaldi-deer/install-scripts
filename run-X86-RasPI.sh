@@ -16,7 +16,7 @@ echo
 echo ============================================================================
 
 apt update
-apt install dialog -y
+apt install dialog awk grep -y
 
 dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
 
