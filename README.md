@@ -33,13 +33,13 @@
 
 ### How to Start using on PC/Server/Raspberry PI
 ### NOTE: Armbian scripts are for bash only
-
+```
 run-X86-RasPI.sh
-
+```
 ### How to Start using on ARM/ARM Server
-
+```
 run-ARM.sh
-
+```
 
 ### configuration: GPU Intel VAAPI Driver
 ### NOTE: nonfree must be enabled before running this.
@@ -61,7 +61,7 @@ The supported platforms include:
 
 This package contains also contains the non-free encode shaders for VP8, VP9, HEVC and AVC for generation 7.5 hardware or newer.
 
-* To install run: sudo apt install i965-va-driver-shaders
+* To install run: `sudo apt install i965-va-driver-shaders`
 
 
 ### configuration: NVIDIA
@@ -82,10 +82,18 @@ This package contains also contains the non-free encode shaders for VP8, VP9, HE
   supported devices:https://us.download.nvidia.com/XFree86/Linux-x86_64/390.144/README/supportedchips.html
 
 
-* To install 470.xxx.xx run: sudo apt install nvidia-driver
-* To install 390.xxx.xx run: sudo apt install nvidia-legacy-390xx-driver
+* To install 470.xxx.xx run: `sudo apt install nvidia-driver`
+* To install 390.xxx.xx run: `sudo apt install nvidia-legacy-390xx-driver`
 
-### NOTE: If not sure install NVIDIA detect: sudo apt install nvidia-detect
+### NOTE: If not sure follow these steps
+install nvidia detect and some dependecies
+```bash
+sudo apt install nvidia-detect awk grep
+```
+next run this command to install the proper driver for your gpu
+```bash
+sudo apt install $(nvidia-detect|awk {'print $1'}|grep nvidia)
+```
 
 ### configuration: Network Manager
 
@@ -96,19 +104,18 @@ This package contains also contains the non-free encode shaders for VP8, VP9, HE
 * Unmanaged devices means NetworkManager doesn't handle those network devices. This occurs when two conditions are met:
 
 * The file /etc/network/interfaces contains anything about the interface, even:
-
+  ```
   allow-hotplug eth0
   iface eth0 inet dhcp
-  
-  
+  ```
   And /etc/NetworkManager/NetworkManager.conf contains:
-
+  ```
   [main]
   plugins=ifupdown,keyfile
 
   [ifupdown]
   managed=false
-
+  ```
 
 * Enabling Interface Management
 
@@ -116,7 +123,6 @@ This package contains also contains the non-free encode shaders for VP8, VP9, HE
 
   Set managed=true in /etc/NetworkManager/NetworkManager.conf.
 
-
 * Restart NetworkManager: sudo service network-manager restart
 
-* Starting with Debian 11 (bullseye), use: sudo service NetworkManager restart
+* Starting with Debian 11 (bullseye), use: `sudo service NetworkManager restart`
