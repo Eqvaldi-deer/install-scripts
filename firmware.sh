@@ -18,15 +18,15 @@ for choice in $choices
 do
     case $choice in
         1)
-            apt install intel-microcode firmware-misc-nonfree firmware-linux-free -y
+            apt install intel-microcode firmware-sof-signed firmware-misc-nonfree firmware-linux-free -y
             bash ./headers.sh
             ;;
         2)
-            apt install intel-microcode firmware-realtek firmware-misc-nonfree firmware-linux-free -y
+            apt install intel-microcode firmware-sof-signed firmware-realtek firmware-misc-nonfree firmware-linux-free -y
             bash ./headers.sh
             ;;
         3)
-            apt install intel-microcode firmware-misc-nonfree firmware-linux-free firmware-brcm80211 -y
+            apt install intel-microcode firmware-sof-signed firmware-misc-nonfree firmware-linux-free firmware-brcm80211 -y
             bash ./headers.sh
             ;;
         4)
@@ -50,7 +50,7 @@ do
             bash ./headers.sh
             ;;
         9)
-            apt install intel-microcode firmware-misc-nonfree firmware-linux-free ixp4xx-microcode samba openssh-* -y
+            apt install intel-microcode firmware-sof-signed firmware-misc-nonfree firmware-linux-free ixp4xx-microcode samba openssh-* -y
             bash ./headers.sh
             ;;
         10)
