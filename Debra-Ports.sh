@@ -7,7 +7,7 @@ apt clean
 
 dialog --msgbox "DO NOT RUN Debra-Ports ON UBUNTU BASED DISTROS" 0 0
 
-cmd=(dialog --keep-tite --menu "Select Desktop Environment:" 22 76 16)
+cmd=(dialog --keep-tite --menu "Select a Port:" 22 76 16)
 
 options=(1 "Dhewm3"
          2 "Eduke32"
