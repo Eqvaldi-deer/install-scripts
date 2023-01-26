@@ -7,7 +7,7 @@ apt clean
 
 dialog --msgbox "DO NOT RUN Debra-Ports ON UBUNTU BASED DISTROS" 0 0
 
-cmd=(dialog --keep-tite --menu "Select Desktop Environment:" 22 76 16)
+cmd=(dialog --keep-tite --menu "Select a Port:" 22 76 16)
 
 options=(1 "Dhewm3"
          2 "Eduke32"
@@ -17,8 +17,9 @@ options=(1 "Dhewm3"
          6 "worldofpadman"
          7 "Yamagi Quake II"
          8 "Duckstation (PSX emu.)"
-         9 "Flycast (Dreamcast emu.) (WIP)"
-	 10 "Exit")
+         9 "iortcw"
+	 10 "Flycast (Dreamcast emu.) (WIP)"
+	 11 "Exit")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -97,6 +98,14 @@ do
           bash ./Debra-Ports.sh
             ;;
         9)
+          git clone https://github.com/iortcw/iortcw.git
+	  cd ioq3/
+	  make
+	  cd ..
+	  cd ..
+          bash ./Debra-Ports.sh
+            ;;
+        10)
           apt install libminiupnpc-dev liblua5.4-dev spirv-tools openssl libao-dev -y
 	  apt install mame-tools --no-install-recommends -y
 	  git clone https://github.com/flyinghead/flycast.git
@@ -107,7 +116,7 @@ do
 	  cd ..
           bash ./Debra-Ports.sh
             ;;
-        10)
+        11)
           exit
             ;;
 
