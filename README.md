@@ -7,7 +7,8 @@
 
 ### known bugs
 
-* No bugs found yet.
+* Gbm3 (will not run on low end hardware for example raspi4/400)
+* Mate/lxde desktop (nvidia-driver causes everything to be oversized)
 
 ### Supported Distros
 

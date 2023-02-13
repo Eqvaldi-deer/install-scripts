@@ -1,3 +1,5 @@
+
+
 cmd=(dialog --keep-tite --menu "Select Firmware:" 22 76 16)
 
 options=(1 "Intel PC "
