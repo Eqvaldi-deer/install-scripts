@@ -5,7 +5,7 @@ echo
 echo                    Copyright © Eqvaldi-deer/Eqvaldi-records                   
 echo                                                                               
 echo                                                                               
-echo                                   2017-2022                                   
+echo                                   2017-2023                                   
 echo                                                                               
 echo                               special thanks to:                              
 echo                                                                             
