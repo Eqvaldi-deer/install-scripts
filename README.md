@@ -88,7 +88,7 @@ This package contains also contains the non-free encode shaders for VP8, VP9, HE
 ### NOTE: If not sure follow these steps
 install nvidia detect and some dependecies
 ```bash
-sudo apt install nvidia-detect awk grep
+sudo apt install nvidia-detect gawk grep
 ```
 next run this command to install the proper driver for your gpu
 ```bash
