@@ -16,7 +16,7 @@ do
 
             options=(1 "chromium"
                      2 "firefox-esr"
-                     3 "qutebrowser (Armbian)"
+                     3 "qutebrowser"
                      4 "Do not install")
 
             choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
@@ -26,18 +26,22 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     4)
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                 esac
             done
@@ -59,18 +63,22 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     4)
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                 esac
             done
@@ -91,18 +99,22 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                     4)
-                        exit
+                        ./other2.sh
+                        #exit
                         ;;
                 esac
             done
