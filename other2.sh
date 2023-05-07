@@ -1,7 +1,7 @@
             cmd=(dialog --keep-tite --menu "Select NVIDIA GPU Driver Version:" 22 76 16)
 
             options=(1 "NVIDIA-Latest (525)"
-                     2 "Intel-nonfree ()"
+                     2 "Intel-nonfree (INTEL)"
                      3 "Automatic (NVIDIA)"
                      4 "Do not install")
 
