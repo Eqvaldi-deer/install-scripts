@@ -26,21 +26,21 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     4)
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                 esac
@@ -63,21 +63,21 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     4)
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                 esac
@@ -99,21 +99,21 @@ do
                 case $choice in
                     1)
                         apt install chromium -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     2)
                         apt install firefox-esr -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     3)
                         apt install qutebrowser -y
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                     4)
-                        ./other2.sh
+                        bash ./other2.sh
                         #exit
                         ;;
                 esac
