@@ -20,9 +20,6 @@ apt install dialog grep -y
 
 dialog --msgbox "DO NOT RUN THESE SCRIPTS ON UBUNTU BASED DISTROS" 0 0
 
-dialog --sleep 2 --msgbox "known bugs
-Mate/lxde desktop (nvidia-driver causes everything to be oversized)
-Gbm3 (will not run on low end hardware for example raspi4/400)" 0 0
 
 cmd=(dialog --keep-tite --menu "Select Desktop Environment:" 22 76 16)
 
@@ -31,7 +28,7 @@ options=(1 "Cinnamon"
          3 "XFCE BM"
          4 "LXDE"
          5 "MATE"
-         6 "Budgie"
+         6 "LXQT (WIP)"
          7 "FVWM-3"
 	 8 "Skip to Firmware install")
 
@@ -361,7 +358,7 @@ do
 			done
             ;;
         6)
-            apt install dconf-gsettings-backend gnome-screensaver gnome-session-bin gnome-session-common gnome-settings-daemon libasound2 libbudgie-plugin0 libbudgie-private0 libbudgietheme0 libbudgie-raven-plugin0 libbudgietheme0 libc6 libcairo2 libcanberra-gtk3-0 libcanberra0 libgdk-pixbuf-2.0-0 libgirepository-1.0-1 libgles2 libglib2.0-0 libgnome-bluetooth13 libgnome-desktop-3-20 libgstreamer1.0-0 libgtk-3-0 libibus-1.0-5 libmutter-11-0 libnotify4 libpango-1.0-0 libpeas-1.0-0 libpolkit-agent-1-0 libpolkit-gobject-1-0 libpulse-mainloop-glib0 libpulse0 libraven0 libupower-glib3 libuuid1 libwnck-3-0 libx11-6 libxcomposite1 zenity gir1.2-budgie-1.0 gnome-control-center gnome-menus network-manager-gnome budgie-desktop-view gnome-terminal nautilus file-roller xserver-xorg pulseaudio pulseaudio-module-bluetooth pavucontrol gnome-calculator ghostscript libmtp-runtime light-locker vlc neofetch lightdm-gtk-greeter-settings eog xorg lightdm synaptic gdebi htop gnome-icon-theme nemo usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse gedit inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-bin gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 exfalso flac font-manager libjpeg-dev gnome-screenshot -y
+            apt install desktop-file-utils lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-panel lxqt-policykit lxqt-qtplugin lxqt-runner lxqt-session lxqt-system-theme lxqt-themes pcmanfm-qt featherpad lximage-qt qterminal file-roller pulseaudio pulseaudio-module-bluetooth pavucontrol-qt galculator ghostscript libmtp-runtime light-locker vlc neofetch lightdm-gtk-greeter-settings lightdm synaptic gdebi htop gnome-icon-theme usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse inputattach xserver-xorg-input-all xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-qt tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-bin gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 exfalso flac font-manager libjpeg-dev -y
             apt install dbus-x11 build-essential git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev openssl miniupnpc libao-dev vainfo vdpauinfo glmark2-* -y
             apt update
             apt upgrade -y
@@ -425,7 +422,7 @@ do
 			done
             ;;
         7)
-            apt install fvwm3 xfce4-terminal thunar pulseaudio pasystray light-locker lightdm-gtk-greeter-settings lightdm file-roller f3 network-manager-gnome galculator ghostscript libmtp-runtime vlc neofetch ristretto xorg synaptic gdebi htop gnome-icon-theme usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-video-all xserver-xorg-video-qxl software-properties-gtk system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-bin gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 exfalso flac font-manager libjpeg-dev xfce4-screenshooter catfish libglx-mesa0 libgl1-mesa-dri thunar-archive-plugin -y
+            apt install fvwm3 xfce4-terminal thunar pulseaudio pasystray light-locker lightdm-gtk-greeter-settings lightdm file-roller f3 network-manager-gnome galculator ghostscript libmtp-runtime vlc neofetch ristretto xorg synaptic gdebi htop gnome-icon-theme usb-modeswitch blueman genisoimage gnome-disk-utility gvfs-fuse mousepad inputattach xserver-xorg-input-all xserver-xorg-input-synaptics xserver-xorg-video-all xserver-xorg-video-qxl xorg software-properties-qt system-config-printer transmission-gtk tumbler mesa-utils gparted xarchiver p7zip zip unzip uuid-runtime mesa-utils-bin gvfs-backends gvfs-common soundconverter ffmpeg build-essential libcurl4-openssl-dev libalut-dev libsdl2-dev libsdl2-mixer-dev libgtk-3-dev libgtk3-perl ffmpeg libavcodec60 exfalso flac font-manager libjpeg-dev xfce4-screenshooter catfish libglx-mesa0 libgl1-mesa-dri thunar-archive-plugin -y
             apt install dbus-x11 build-essential git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev openssl miniupnpc libao-dev vainfo vdpauinfo glmark2-* -y
             apt update
             apt upgrade -y
