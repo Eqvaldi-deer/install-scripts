@@ -30,7 +30,7 @@ do
           git clone https://github.com/dhewm/dhewm3.git
 	  cd dhewm3/
 	  cmake ./neo/
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -38,7 +38,7 @@ do
         2)
           git clone https://voidpoint.io/terminx/eduke32.git
 	  cd eduke32/
-	  make USE_OPENGL=0 POLYMER=0 USE_LIBVPX=0 OPTLEVEL=2 WITHOUT_GTK=1
+	  make -j$(nproc) USE_OPENGL=0 POLYMER=0 USE_LIBVPX=0 OPTLEVEL=2 WITHOUT_GTK=1
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -46,15 +46,19 @@ do
         3)
           git clone https://github.com/DarkPlacesEngine/darkplaces.git
 	  cd darkplaces/
-	  make sdl-release
+	  make -j$(nproc) sdl-release
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
             ;;
         4)
-          git clone https://github.com/DarkPlacesEngine/darkplaces.git
-	  cd darkplaces/
-	  make sdl-nexuiz
+          git clone --depth 1 https://github.com/minetest/minetest.git
+	  cd minetest
+	  git clone --depth 1 https://github.com/minetest/minetest_game.git games/minetest_game
+ 	  git clone --depth 1 https://github.com/minetest/irrlicht.git lib/irrlichtmt
+	  git clone https://codeberg.org/SumianVoice/backroomtest.git games/backroomtest
+	  cmake . -DRUN_IN_PLACE=TRUE
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -62,7 +66,7 @@ do
         5)
           git clone https://github.com/ioquake/ioq3.git
 	  cd ioq3/
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -72,18 +76,19 @@ do
 	  unzip *.zip
 	  rm -rf ./*.zip
 	  cd worldofpadman-1.6.2/
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
             ;;
         7)
           #git clone https://github.com/yquake2/yquake2.git
-	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip
-	  unzip *.zip
+	  #wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip
+	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_30.zip
+   	  unzip *.zip
 	  rm -rf ./*.zip
 	  cd yquake2-QUAKE2_8_10/
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -92,7 +97,7 @@ do
           git clone https://github.com/stenzek/duckstation.git -b dev
 	  cd duckstation/
 	  cmake ./
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -100,7 +105,7 @@ do
         9)
           git clone https://github.com/iortcw/iortcw.git
 	  cd ioq3/
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
@@ -111,7 +116,7 @@ do
 	  git clone https://github.com/flyinghead/flycast.git
 	  cd flycast/
 	  cmake ./
-	  make
+	  make -j$(nproc)
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
