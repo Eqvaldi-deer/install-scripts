@@ -15,9 +15,8 @@ do
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
-                     2 "firefox-esr"
-                     3 "qutebrowser"
-                     4 "Do not install")
+                     2 "qutebrowser"
+                     3 "Do not install")
 
             choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -30,16 +29,11 @@ do
                         #exit
                         ;;
                     2)
-                        apt install firefox-esr -y
-                        bash ./other2.sh
-                        #exit
-                        ;;
-                    3)
                         apt install qutebrowser -y
                         bash ./other2.sh
                         #exit
                         ;;
-                    4)
+                    3)
                         bash ./other2.sh
                         #exit
                         ;;
@@ -52,9 +46,8 @@ do
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
-                     2 "firefox-esr"
-                     3 "qutebrowser"
-                     4 "Do not install")
+                     2 "qutebrowser"
+                     3 "Do not install")
 
             choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -67,16 +60,11 @@ do
                         #exit
                         ;;
                     2)
-                        apt install firefox-esr -y
-                        bash ./other2.sh
-                        #exit
-                        ;;
-                    3)
                         apt install qutebrowser -y
                         bash ./other2.sh
                         #exit
                         ;;
-                    4)
+                    3)
                         bash ./other2.sh
                         #exit
                         ;;
@@ -88,9 +76,8 @@ do
             cmd=(dialog --keep-tite --menu "Select Web browser:" 22 76 16)
 
             options=(1 "chromium"
-                     2 "firefox-esr"
-                     3 "qutebrowser"
-                     4 "Do not install")
+                     2 "qutebrowser"
+                     3 "Do not install")
 
             choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -103,16 +90,11 @@ do
                         #exit
                         ;;
                     2)
-                        apt install firefox-esr -y
-                        bash ./other2.sh
-                        #exit
-                        ;;
-                    3)
                         apt install qutebrowser -y
                         bash ./other2.sh
                         #exit
                         ;;
-                    4)
+                    3)
                         bash ./other2.sh
                         #exit
                         ;;
