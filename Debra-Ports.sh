@@ -104,7 +104,12 @@ do
         9)
           git clone https://github.com/iortcw/iortcw.git
 	  cd iortcw/
+   	  cd SP/
+      	  make -j$(nproc)
+	  cd ..
+          cd MP/
 	  make -j$(nproc)
+   	  cd ..
 	  cd ..
 	  cd ..
           bash ./Debra-Ports.sh
