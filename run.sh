@@ -28,7 +28,7 @@ options=(1 "Cinnamon"
          3 "XFCE BM"
          4 "LXDE"
          5 "MATE"
-         6 "LXQT (WIP)"
+         6 "LXQT"
          7 "FVWM-3"
 	 8 "Skip to Firmware install")
 
