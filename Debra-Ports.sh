@@ -103,7 +103,7 @@ do
             ;;
         9)
           git clone https://github.com/iortcw/iortcw.git
-	  cd ioq3/
+	  cd iortcw/
 	  make -j$(nproc)
 	  cd ..
 	  cd ..
