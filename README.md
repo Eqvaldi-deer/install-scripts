@@ -20,9 +20,7 @@
 
 * Q: What is the point?
 * A: To make DEs run on low end hardware. (example:embedded devices and thin clients etc.)
-* Q: Do you support devices with 1 cpu core and 512mb of ram?
-* A: yes but it is not Recomended.
-* Q: If i have a AMD E1-6010 and 2 gb of ram wil it run?
+* Q: If i have 2 gb of ram wil it run?
 * A: Yes but you need to use lxde,mate,xfce.
 * Q: Do you support Armbian?
 * A: Yes.
