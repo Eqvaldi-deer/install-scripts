@@ -85,7 +85,8 @@ do
 	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_30.zip
    	  unzip *.zip
 	  rm -rf ./*.zip
-	  cd yquake2-QUAKE2_8_10/
+	  #cd yquake2-QUAKE2_8_10/
+   	  cd yquake2-QUAKE2_8_30/
 	  make -j$(nproc)
 	  cd ..
 	  cd ..
