@@ -1,9 +1,7 @@
 #!/bin/sh
 mkdir ./Debra-Ports
 cd ./Debra-Ports
-apt update 
-apt install build-essential dialog git nasm libgl1-mesa-dev libsdl2-dev flac libflac-dev libvpx-dev libgtk2.0-dev freepats ninja-build qtbase5-dev qtbase5-private-dev qtbase5-dev-tools qttools5-dev -y
-apt clean
+ 
 
 dialog --msgbox "DO NOT RUN Debra-Ports ON UBUNTU BASED DISTROS" 0 0
 
@@ -83,7 +81,7 @@ do
             ;;
         7)
           #git clone https://github.com/yquake2/yquake2.git
-	  #wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip
+	  #wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip  #This line is for Debian 12
 	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_30.zip
    	  unzip *.zip
 	  rm -rf ./*.zip
