@@ -10,13 +10,13 @@ cmd=(dialog --keep-tite --menu "Select a Port:" 22 76 16)
 options=(1 "Dhewm3"
          2 "Eduke32"
          3 "Darkplaces"
-         4 "Darkplaces-nexuiz"
+         4 "Minetest"
          5 "Ioq3"
          6 "worldofpadman"
          7 "Yamagi Quake II"
          8 "Duckstation (PSX emu.)"
          9 "iortcw"
-	 10 "Flycast (Dreamcast emu.) (WIP)"
+	 10 "DSDA-Doom"
 	 11 "Exit")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
@@ -109,14 +109,14 @@ do
           bash ./Debra-Ports.sh
             ;;
         10)
-          apt install libminiupnpc-dev liblua5.4-dev spirv-tools openssl libao-dev -y
-	  apt install mame-tools --no-install-recommends -y
-	  git clone https://github.com/flyinghead/flycast.git
-	  cd flycast/
+	  git clone https://github.com/kraflab/dsda-doom.git
+	  cd ./dsda-doom/
+          cd ./prboom2/
 	  cmake ./
 	  make -j$(nproc)
 	  cd ..
 	  cd ..
+    	  cd ..
           bash ./Debra-Ports.sh
             ;;
         11)
