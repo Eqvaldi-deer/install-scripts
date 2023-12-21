@@ -14,10 +14,11 @@ options=(1 "Dhewm3"
          5 "Ioq3"
          6 "worldofpadman"
          7 "Yamagi Quake II"
-         8 "Duckstation (PSX emu.)"
-         9 "iortcw"
-	 10 "DSDA-Doom"
-	 11 "Exit")
+         8 "Yamagi Quake II (Git)"
+         9 "Duckstation (PSX emu.)"
+         10 "iortcw"
+	 11 "DSDA-Doom"
+	 12 "Exit")
 
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 
@@ -80,12 +81,9 @@ do
           bash ./Debra-Ports.sh
             ;;
         7)
-          #git clone https://github.com/yquake2/yquake2.git
-	  #wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_10.zip  #This line is for Debian 12
 	  wget https://github.com/yquake2/yquake2/archive/refs/tags/QUAKE2_8_30.zip
    	  unzip *.zip
 	  rm -rf ./*.zip
-	  #cd yquake2-QUAKE2_8_10/
    	  cd yquake2-QUAKE2_8_30/
 	  make -j$(nproc)
 	  cd ..
@@ -93,6 +91,14 @@ do
           bash ./Debra-Ports.sh
             ;;
         8)
+          git clone https://github.com/yquake2/yquake2.git
+   	  cd yquake2
+	  make -j$(nproc)
+	  cd ..
+	  cd ..
+          bash ./Debra-Ports.sh
+            ;;
+        9)
           git clone https://github.com/stenzek/duckstation.git -b dev
 	  cd duckstation/
 	  cmake ./
@@ -101,7 +107,7 @@ do
 	  cd ..
           bash ./Debra-Ports.sh
             ;;
-        9)
+        10)
           git clone https://github.com/iortcw/iortcw.git
 	  cd iortcw/
    	  cd SP/
@@ -114,7 +120,7 @@ do
 	  cd ..
           bash ./Debra-Ports.sh
             ;;
-        10)
+        11)
 	  git clone https://github.com/kraflab/dsda-doom.git
 	  cd ./dsda-doom/
           cd ./prboom2/
@@ -125,7 +131,7 @@ do
     	  cd ..
           bash ./Debra-Ports.sh
             ;;
-        11)
+        12)
           exit
             ;;
 
